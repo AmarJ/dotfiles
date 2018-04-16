@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-  name = "Hamza Basrai"
-  email = hamza.basrai@gmail.com
+  name = "Amar Jasarbasic"
+  email = amarjasarbasic@gmail.com
 [push]
 	default = simple
 [core]
