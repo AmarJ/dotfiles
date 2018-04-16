@@ -8,10 +8,6 @@ if [ -f ~/.bash_exports ]; then
   . ~/.bash_exports
 fi
 
-#if [ -f ~/.bash_colors ]; then
-#  . ~/.bash_colors
-#fi
-
 if [ -f ~/.bash_options ]; then
   . ~/.bash_options
 fi
@@ -24,8 +20,4 @@ if [ -f ~/.inputrc ]; then
   . ~/.inputrc
 fi
 
-if [ -f ~/.curlrc ]; then
-  . ~/.curlrc
-fi
-
-cd
+export TERM=xterm-256color
