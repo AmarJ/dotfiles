@@ -12,6 +12,7 @@ export HISTSIZE=1000
 # Don't clear screen after quitting a manual page
 export MANPAGER="less -X"
 
+export TERM=xterm-256color
 # Make new shells get the history from all previous
 # shells instead of "last window closed"
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
