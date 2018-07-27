@@ -7,6 +7,8 @@ LS_COMMON="$LS_COMMON -I NTUSER.DAT\* -I ntuser.dat\* -I ntuser.ini\* -I desktop
 
 alias ls="command ls $LS_COMMON"
 alias la="ls -aoh"
+alias ll="ls -a"
+alias c="clear"
 
 #Reload .profile
 alias reload="source ~/.profile"

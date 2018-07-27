@@ -21,3 +21,4 @@ if [ -f ~/.inputrc ]; then
 fi
 
 export TERM=xterm-256color
+export DISPLAY=:0
