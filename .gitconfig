@@ -2,7 +2,8 @@
 [user]
 # Please adapt and uncomment the following lines:
   name = "Amar Jasarbasic"
-  email = amarjasarbasic@gmail.com
+	email = amar.jasarbasic@shopify.com
+	nam = Amar Jasarbasic
 [push]
 	default = simple
 [core]
