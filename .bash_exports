@@ -16,3 +16,6 @@ export TERM=xterm-256color
 # Make new shells get the history from all previous
 # shells instead of "last window closed"
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
+#Shopify shtufff
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`

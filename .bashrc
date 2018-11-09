@@ -22,6 +22,7 @@ fi
 
 export TERM=xterm-256color
 export DISPLAY=:0
+# export PIP_REQUIRE_VIRTUALENV=false
 
 # load dev, but only if present and the shell is interactive
 if [[ -f /opt/dev/dev.sh ]] && [[ $- == *i* ]]; then

@@ -15,3 +15,13 @@
 	cl = clone
 	co = commit
 	ch = checkout
+[merge]
+    keepBackup = false
+    tool = "custom-p4merge"
+[mergetool "custom-p4merge"]
+    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$PWD/$BASE\"" "\"$PWD/$REMOTE\"" "\"$PWD/$LOCAL\"" "\"$PWD/$MERGED\""
+    trustExitCode = false
+    keepBackup = false
+    keepTemporaries = false
+[diff]
+	algorithm = patience
