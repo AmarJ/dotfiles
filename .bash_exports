@@ -18,4 +18,4 @@ export TERM=xterm-256color
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 #Shopify shtufff
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.8`

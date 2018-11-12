@@ -23,5 +23,6 @@ echo "Adding color schemes to /.vim/colors"
 mkdir ~/.vim
 mkdir ~/.vim/colors
 cp colors/* ~/.vim/colors/.
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 source ~/.profile
