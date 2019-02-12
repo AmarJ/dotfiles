@@ -12,8 +12,8 @@ function get_branch() {
       # git symbolic-ref --short -q HEAD || echo "default_value";
 }
 
-alias la="ls -aoh"
-alias ll="ls -a"
+alias la="ls -a"
+alias ll="ls -lh"
 alias c="clear"
 alias l="ls"
 alias ng="/usr/local/lib/node_modules/@angular/cli/bin/ng"
