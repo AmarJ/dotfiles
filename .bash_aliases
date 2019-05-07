@@ -19,6 +19,9 @@ alias l="ls"
 alias ng="/usr/local/lib/node_modules/@angular/cli/bin/ng"
 alias gs="git status"
 alias gc='git commit --amend'
+alias r="reload"
+alias gc="git commit --amend"
+alias gp="git push origin head"
 
 #Reload .profile
 alias reload="source ~/.profile"

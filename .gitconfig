@@ -2,8 +2,8 @@
 [user]
 # Please adapt and uncomment the following lines:
   name = "Amar Jasarbasic"
-	email = amar.jasarbasic@shopify.com
-	nam = Amar Jasarbasic
+	email = amarjasarbasic@gmail.com
+	name = Amar Jasarbasic
 [push]
 	default = simple
 [core]
@@ -26,4 +26,4 @@
 [diff]
 	algorithm = patience
 [credential]
-	helper = osxkeychain
+	helper = cache
