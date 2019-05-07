@@ -21,7 +21,7 @@ alias gs="git status"
 alias gc='git commit --amend'
 alias r="reload"
 alias gc="git commit --amend"
-alias gp="git push origin head"
+alias gp="git push -u origin HEAD"
 
 #Reload .profile
 alias reload="source ~/.profile"
