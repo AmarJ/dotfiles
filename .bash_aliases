@@ -12,13 +12,20 @@ function get_branch() {
       # git symbolic-ref --short -q HEAD || echo "default_value";
 }
 
+alias k="kubectl"
 alias la="ls -a"
 alias ll="ls -lh"
 alias c="clear"
 alias l="ls"
 alias ng="/usr/local/lib/node_modules/@angular/cli/bin/ng"
 alias gs="git status"
+alias ga='git add .'
 alias gc='git commit --amend'
+alias gp='git push origin head -f'
+alias gd='ga && gc && gp'
+alias ir='pip install -r requirements.txt'
+alias sf='screenfetch'
+alias python=python3
 
 #Reload .profile
 alias reload="source ~/.profile"

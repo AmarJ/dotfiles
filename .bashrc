@@ -28,3 +28,7 @@ export DISPLAY=:0
 if [[ -f /opt/dev/dev.sh ]] && [[ $- == *i* ]]; then
   source /opt/dev/dev.sh
 fi
+
+npm set prefix ~/.npm
+PATH="$HOME/.npm/bin:$PATH"
+PATH="./node_modules/.bin:$PATH"
