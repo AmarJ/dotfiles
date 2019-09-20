@@ -1,2 +1,2 @@
 # dotfiles
-Linux Bash and Git config files
+Linux Bash and Git config files + branch for mac stuff
