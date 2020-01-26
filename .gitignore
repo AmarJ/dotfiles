@@ -1,5 +1,8 @@
 # Useful .gitignore config
 
+#Mac
+.DS_Store
+
 # Linux
 *~
 

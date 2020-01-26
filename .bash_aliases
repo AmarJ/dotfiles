@@ -26,6 +26,9 @@ alias gd='ga && gc && gp'
 alias ir='pip install -r requirements.txt'
 alias sf='screenfetch'
 alias python=python3
+alias gab='gatsby build'
+alias gas='gatsby serve'
+alias ys='yarn start'
 
 #Reload .profile
 alias reload="source ~/.profile"
