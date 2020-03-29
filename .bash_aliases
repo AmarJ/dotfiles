@@ -21,7 +21,7 @@ alias ng="/usr/local/lib/node_modules/@angular/cli/bin/ng"
 alias gs="git status"
 alias ga='git add .'
 alias gc='git commit --amend'
-alias gp='git push origin head -f'
+alias gp='git push origin head'
 alias gd='ga && gc && gp'
 alias ir='pip install -r requirements.txt'
 alias sf='screenfetch'
@@ -29,6 +29,7 @@ alias python=python3
 alias gab='gatsby build'
 alias gas='gatsby serve'
 alias ys='yarn start'
+alias run='python manage.py run'
 
 #Reload .profile
 alias reload="source ~/.profile"
