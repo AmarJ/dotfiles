@@ -30,6 +30,10 @@ alias gab='gatsby build'
 alias gas='gatsby serve'
 alias ys='yarn start'
 alias run='python manage.py run'
+alias sarah='echo i love you'
+alias setenv='export $(xargs < .env)'
+alias setenvlocal='export $(xargs < .env.local)'
+alias fdeploy="npm run build && firebase deploy --only functions"
 
 #Reload .profile
 alias reload="source ~/.profile"
